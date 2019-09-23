@@ -1,14 +1,15 @@
 {
-  "defaultConnection": "default",
-  "connections": {
-    "default": {
-      "connector": "strapi-hook-mongoose",
-      "settings": {
-        "uri": "mongodb+srv://anh:ninu@sjsuml-club-jsp7r.mongodb.net/sjsuml-db?retryWrites=true&w=majority"
-      },
-      "options": {
-        "ssl": true
-      }
-    }
-  }
+	"defaultConnection": "default",
+	"connections": {
+		"default": {
+			"connector": "strapi-hook-mongoose",
+			"settings": {
+				"uri": "${process.env.DATABASE_URI}",
+				"database": "${process.env.DATABASE_NAME}"
+			},
+			"options": {
+				"ssl": true
+			}
+		}
+	}
 }
