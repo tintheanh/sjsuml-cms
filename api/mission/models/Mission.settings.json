@@ -2,14 +2,14 @@
   "connection": "default",
   "collectionName": "",
   "info": {
-    "name": "test",
+    "name": "mission",
     "description": ""
   },
   "options": {
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "content": {
       "type": "string"
     }
   }
