@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "schedule",
+  "info": {
+    "name": "schedule",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "topic": {
+      "required": true,
+      "type": "string"
+    },
+    "date": {
+      "required": true,
+      "type": "date"
+    },
+    "description": {
+      "required": true,
+      "type": "string"
+    },
+    "location": {
+      "required": true,
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "carousel",
+  "info": {
+    "name": "carousel",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

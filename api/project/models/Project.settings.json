@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "description": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

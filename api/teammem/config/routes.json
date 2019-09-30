@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/teammems",
+      "handler": "Teammem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/teammems/count",
+      "handler": "Teammem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/teammems/:id",
+      "handler": "Teammem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/teammems",
+      "handler": "Teammem.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/teammems/:id",
+      "handler": "Teammem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/teammems/:id",
+      "handler": "Teammem.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

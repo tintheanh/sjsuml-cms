@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "teammem",
+  "info": {
+    "name": "teammem",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
