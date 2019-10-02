@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "contact",
   "info": {
     "name": "contact",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "email": {
@@ -20,10 +23,10 @@
     "facebook": {
       "type": "string"
     },
-    "twitter": {
+    "linkedin": {
       "type": "string"
     },
-    "instagram": {
+    "slack": {
       "type": "string"
     }
   }
