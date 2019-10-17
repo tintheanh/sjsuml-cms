@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/getinvolveds",
+      "handler": "Getinvolved.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getinvolveds/count",
+      "handler": "Getinvolved.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getinvolveds/:id",
+      "handler": "Getinvolved.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/getinvolveds",
+      "handler": "Getinvolved.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/getinvolveds/:id",
+      "handler": "Getinvolved.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/getinvolveds/:id",
+      "handler": "Getinvolved.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

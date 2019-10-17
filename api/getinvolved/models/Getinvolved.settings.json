@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "getinvolved",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "required": true,
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    }
+  }
+}
