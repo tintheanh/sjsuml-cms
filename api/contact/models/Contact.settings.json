@@ -16,17 +16,13 @@
       "required": true,
       "type": "string"
     },
-    "phone": {
-      "required": true,
-      "type": "string"
-    },
-    "facebook": {
-      "type": "string"
-    },
     "linkedin": {
       "type": "string"
     },
     "slack": {
+      "type": "string"
+    },
+    "youtube": {
       "type": "string"
     }
   }
