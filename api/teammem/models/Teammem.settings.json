@@ -29,6 +29,12 @@
       "type": "integer",
       "unique": true,
       "required": true
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
     }
   }
 }

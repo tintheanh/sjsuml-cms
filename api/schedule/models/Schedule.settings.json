@@ -30,11 +30,6 @@
     },
     "link": {
       "type": "string"
-    },
-    "order": {
-      "type": "integer",
-      "unique": true,
-      "required": true
     }
   }
 }

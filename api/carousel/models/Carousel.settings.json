@@ -16,6 +16,11 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "order": {
+      "type": "integer",
+      "unique": true,
+      "required": true
     }
   }
 }
